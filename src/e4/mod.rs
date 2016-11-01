@@ -16,12 +16,6 @@ fn factor(num: i32) -> Vec<i32> {
 }
 
 pub fn main() -> i32 {
-    println!("{}", is_palindrome("909909"));
-    println!("{}", is_palindrome("90909"));
-    println!("{}", is_palindrome("909109"));
-
-    println!("{:?}", factor(100));
-
     let mut n = 999 * 999;
 
     loop {
@@ -47,7 +41,7 @@ pub fn main() -> i32 {
         }
 
         if has_proper_factors {
-            println!("{}", str);
+            // println!("{}", str);
             break;
         } else {
             n = n - 1;

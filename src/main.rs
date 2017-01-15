@@ -1,12 +1,10 @@
 //use std::io;
 extern crate euler;
 
-use euler::e4;
+use euler::problems::problem_001;
 
 fn main() {
-    println!("Hello, world!");
-
-    println!("E4: {}", e4::main());
+    println!("E1: {}", problem_001::main());
 
     // let mut number = String::new();
 

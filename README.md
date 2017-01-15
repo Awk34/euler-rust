@@ -1,1 +1,1 @@
-# euler-rust
+# Project Euler Solutions - Rust

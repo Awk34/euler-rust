@@ -2,13 +2,13 @@
 extern crate euler;
 extern crate time;
 
-use euler::problems::problem_001;
+use euler::problems::problem_083;
 use time::PreciseTime;
 
 fn main() {
     let start = PreciseTime::now();
 
-    println!("E1: {}", problem_001::main());
+    println!("E83: {}", problem_083::main());
 
     let end = PreciseTime::now();
 

@@ -1,3 +1,4 @@
+#[no_mangle]
 pub fn main() -> u32 {
     let mut total = 0;
 

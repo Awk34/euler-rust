@@ -3,6 +3,13 @@ name = "euler"
 version = "0.1.0"
 authors = ["Andrew Koroluk <koroluka@gmail.com>"]
 
+[lib]
+crate-type = ["cdylib"]
+
 [dependencies]
+log = "0.4"
+simple_logger = "0.5.0"
+glob = "0.2.11"
+error-chain = "0.11.0"
 primal = "0.2"
 time = "0.1"

@@ -1,4 +1,5 @@
-pub fn main() -> u32 {
+#[no_mangle]
+pub fn problem_002() -> u32 {
     let mut num1 = 1;
     let mut num2 = 1;
     let mut num3;
